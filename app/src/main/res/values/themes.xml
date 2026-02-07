@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Rideexpress" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Normal App Theme -->
+    <style name="Theme.Rideexpress" parent="Base.Theme.Rideexpress" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Rideexpress.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.Rideexpress</item>
+    </style>
+
+
+</resources>
