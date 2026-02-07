@@ -216,7 +216,20 @@
                         android:textSize="12sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
         </GridLayout>
+        <Button
+            android:id="@+id/btnBookRide"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/yellow"
+            android:text="Book Ride"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 </ScrollView>

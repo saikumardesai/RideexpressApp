@@ -30,6 +30,10 @@ class HomeFragment : Fragment() {
         binding.airport.setOnClickListener { openLink(airportUrl) }
         binding.outstation.setOnClickListener { openLink(outstationUrl) }
         binding.localrides.setOnClickListener { openLink(business) }
+        binding.btnBookRide.setOnClickListener {
+            val intent = Intent(requireContext(), BookRideActivity::class.java)
+            startActivity(intent)
+        }
         return binding.root
     }
 
